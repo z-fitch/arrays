@@ -17,3 +17,10 @@ answers = [true, false, true, false]
 # .unshift adds the item in the parentheses to the front of the array. 
 answers.unshift(false)
 puts answers
+
+
+#Demonstrate your understanding of index positions in this file. 
+#You can write an explanation, provide some examples with the Arrays you’ve created, or anything else.
+
+#Index positions are the positions in the arrays. However they dont follow normal counting or listing rules( normal as in not in a coding enviroment) 
+# they start at 0 and count up, for example if i had the array `numbers = ["1", "2", "3", "4"]``, the "1" is in the 0th position, the "4" is in the 3rd postion. 
