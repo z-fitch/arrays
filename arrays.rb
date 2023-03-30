@@ -24,3 +24,9 @@ puts answers
 
 #Index positions are the positions in the arrays. However they dont follow normal counting or listing rules( normal as in not in a coding enviroment) 
 # they start at 0 and count up, for example if i had the array `numbers = ["1", "2", "3", "4"]``, the "1" is in the 0th position, the "4" is in the 3rd postion. 
+
+
+flowers = ["lillies", "roses", "poppy", "roses", "tulips", "lillies"]
+# I have a duplicate in my array, if i use uniq! it gets rid of any duplicates. In this case It would return only one roses and only one lillies
+flowers.uniq!
+puts flowers
